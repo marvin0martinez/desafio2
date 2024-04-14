@@ -1,0 +1,122 @@
+[
+    {
+        "ID": 1,
+        "nombre": "Mercurio",
+        "tipo": "Planeta rocoso",
+        "masa": "3.30104 × 10^23 kg",
+        "radio": "2,439 km",
+        "distancia_media_al_sol": "57,909,227 km",
+        "periodo_orbital": "87.87 días",
+        "periodo_rotacion": "58.6 días",
+        "numero_de_lunas": "0",
+        "Imagen": "https://content.nationalgeographic.com.es/medio/2022/06/30/el-planeta-mercurio_48c3a79c_800x450.jpg"
+    },
+    {
+        "ID": 2,
+        "nombre": "Venus",
+        "tipo": "Planeta rocoso",
+        "masa": "4.86732 × 10^24 kg",
+        "radio": "6,051 km",
+        "distancia_media_al_sol": "108,209,475 km",
+        "periodo_orbital": "225 días",
+        "periodo_rotacion": "116 días y 18 horas",
+        "numero_de_lunas": "0",
+        "Imagen": "https://content.nationalgeographic.com.es/medio/2022/06/30/el-planeta-venus_d6349041_800x800.jpg"
+    },
+    {
+        "ID": "3",
+        "nombre": "Marte",
+        "tipo": "Planeta rocoso",
+        "masa": "6.41693 × 10^23 kg",
+        "radio": "3,389 km",
+        "distancia_media_al_sol": "227,943,824 km",
+        "periodo_orbital": "687 días",
+        "periodo_rotacion": "1 día y 37 minutos",
+        "numero_de_lunas": "2",
+        "Imagen": "https://content.nationalgeographic.com.es/medio/2022/06/30/el-planeta-marte_e9b53cea_800x758.jpg"
+    },
+    {
+        "ID": "4",
+        "nombre": "Júpiter",
+        "tipo": "Gigante gaseoso",
+        "masa": "1.89813 × 10^27 kg",
+        "radio": "69,911 km",
+        "distancia_media_al_sol": "778,340,821 km",
+        "periodo_orbital": "12 años",
+        "periodo_rotacion": "9 horas y 56 minutos",
+        "numero_de_lunas": "79",
+        "Imagen": "https://content.nationalgeographic.com.es/medio/2022/06/30/el-planeta-jupiter_62aed912_800x800.jpg"
+    },
+    {
+        "ID": "5",
+        "nombre": "Saturno",
+        "tipo": "Gigante gaseoso",
+        "masa": "5.68319 × 10^26 kg",
+        "radio": "58,238 km",
+        "distancia_media_al_sol": "1,426,666,422 km",
+        "periodo_orbital": "29 años",
+        "periodo_rotacion": "10 horas y 34 minutos",
+        "numero_de_lunas": "83",
+        "Imagen": "https://content.nationalgeographic.com.es/medio/2022/11/08/el-planeta-saturno_84a3bfd0_800x279.jpg"
+    },
+    {
+        "ID": "6",
+        "nombre": "Urano",
+        "tipo": "Gigante helado",
+        "masa": "8.68103 × 10^25 kg",
+        "radio": "25,362 km",
+        "distancia_media_al_sol": "2,870,658,186 km",
+        "periodo_orbital": "84 años",
+        "periodo_rotacion": "17 horas y 14 minutos",
+        "numero_de_lunas": "27",
+        "Imagen": "https://content.nationalgeographic.com.es/medio/2022/06/30/el-planeta-urano_0c7434f8_800x800.jpg"
+    },
+    {
+        "ID": "7",
+        "nombre": "Neptuno",
+        "tipo": "Gigante helado",
+        "masa": "1.02412 × 10^26 kg",
+        "radio": "24,622 km",
+        "distancia_media_al_sol": "4,498,396,441 km",
+        "periodo_orbital": "165 años",
+        "periodo_rotacion": "16 horas y 6 minutos",
+        "numero_de_lunas": "14",
+        "Imagen": "https://content.nationalgeographic.com.es/medio/2022/06/30/el-planeta-neptuno_3405d5aa_800x798.jpg"
+    },
+    {
+        "ID": "8",
+        "nombre": "Tierra",
+        "tipo": "Planeta rocoso",
+        "masa": "5.97219 × 10^24 kg",
+        "radio": "6,371 km",
+        "distancia_media_al_sol": "149,598,262 km",
+        "periodo_orbital": "365 días, 6 horas y 9.76 minutos",
+        "periodo_rotacion": "23 horas y 56 minutos",
+        "numero_de_lunas": "1",
+        "Imagen": "https://content.nationalgeographic.com.es/medio/2022/06/30/el-planeta-tierra_608b9ad4_800x800.jpg"
+    },
+    {
+        "ID": "9",
+        "nombre": "Sol",
+        "tipo": "Estrella",
+        "masa": "1.9891 × 10^30 kg",
+        "radio": "No especificado",
+        "distancia_media_al_sol": "No aplicable",
+        "periodo_orbital": "No aplicable",
+        "periodo_rotacion": "25 a 35 días",
+        "numero_de_lunas": "0",
+        "Imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg/312px-The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg"
+    },
+    {
+        "ID": "10",
+        "nombre": "Luna",
+        "tipo": "Satélite natural",
+        "masa": "No especificado",
+        "radio": "1,738 km",
+        "distancia_media_al_sol": "0",
+        "periodo_orbital": "27.3 días",
+        "periodo_rotacion": "27.3 días",
+        "numero_de_lunas": "0",
+        "Imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Full_Moon_Luc_Viatour.jpg/280px-Full_Moon_Luc_Viatour.jpg"
+    }
+]
