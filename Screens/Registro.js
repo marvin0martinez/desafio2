@@ -24,7 +24,7 @@ const Registro = ({ navigation }) => {
       await AsyncStorage.setItem('email', email);
       await AsyncStorage.setItem('password', password);
       alert('Registro exitoso');
-      navigation.navigate('Evento'); // Navegar a la pantalla de Evento después del registro
+      navigation.navigate('Inicio'); 
     } catch (error) {
       console.error('Error al guardar los datos:', error);
       alert('Ocurrió un error al guardar los datos');

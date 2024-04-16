@@ -24,10 +24,20 @@ const Inicio = ({ navigation }) => {
     }
   };
 
-  const Login = () => {
-    console.log('Email:', email);
-    console.log('Contraseña:', password);
-    // Aquí puedes agregar la lógica de inicio de sesión
+  const validateCredentials = async () => {
+    try {
+      const savedEmail = await AsyncStorage.getItem('email');
+      const savedPassword = await AsyncStorage.getItem('password');
+  
+      if (email === savedEmail && password === savedPassword) {
+      
+        navigation.navigate('Evento');
+      } else {
+        alert('Correo electrónico o contraseña incorrectos');
+      }
+    } catch (error) {
+      console.error('Error al obtener los datos guardados:', error);
+    }
   };
 
   return (
@@ -46,7 +56,7 @@ const Inicio = ({ navigation }) => {
         onChangeText={setPassword}
         secureTextEntry
       />
-      <TouchableOpacity style={styles.button} onPress={Login}>
+      <TouchableOpacity style={styles.button} onPress={validateCredentials}>
         <Text style={styles.buttonText}>Iniciar sesión</Text>
       </TouchableOpacity>
       <TouchableOpacity onPress={() => navigation.navigate('Registro')}>
@@ -54,7 +64,7 @@ const Inicio = ({ navigation }) => {
       </TouchableOpacity>
     </View>
   );
-};
+}
 
 const styles = StyleSheet.create({
   container: {
